@@ -6,7 +6,7 @@ namespace XmlParser
     {
         internal DbContext()
         {
-            ConnString = "Host=localhost;Port=5432;Username=postgres;Password=123;Database=NFe";
+            ConnString = "";
         }
 
         private string ConnString { get; set; } = null!;
